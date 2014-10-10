@@ -1,0 +1,32 @@
+{
+  "name": "rottle",
+  "version": "0.1.0",
+  "description": "Throttle functions using requestAnimationFrame.",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jshint index.js tests.js && jscs index.js tests.js && testem ci",
+    "watch": "testem -g"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RealGeeks/rottle.git"
+  },
+  "author": "Sorin Iclanzan <sorin@iclanzan.com> (http://iclanzan.com/)",
+  "bugs": {
+    "url": "https://github.com/RealGeeks/rottle/issues"
+  },
+  "homepage": "https://github.com/RealGeeks/rottle",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^5.10.0",
+    "jscs": "^1.6.1",
+    "jshint": "^2.5.5",
+    "tape": "^2.14.0",
+    "testem": "^0.6.18"
+  },
+  "dependencies": {
+    "raf": "^2.0.4"
+  }
+}
